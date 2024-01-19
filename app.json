@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "untitled",
+    "slug": "untitled",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/home-icon-and-text@3x.png",
+    "userInterfaceStyle": "light",
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.mui10.untitled"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d26ce11a-64b1-49be-b181-7e30b4e0c251"
+      }
+    }
+  }
+}
